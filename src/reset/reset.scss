@@ -1,7 +1,12 @@
 h1,
 h2,
 body,
-a{
+a,
+li,
+ul{
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: rgba(41, 41, 41, 1);
 }

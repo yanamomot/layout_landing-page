@@ -46,30 +46,71 @@
       <div class="header__top">
         <a class="header__logo__link" href="#">
           <img class="header__logo"
-            src="/src/images/Logo.png"
+            src="/src/images/Logo.svg"
             alt="Nothing logo"
           />
         </a>
         <div class="header__icons">
           <a class="icon icon--phone" href="#"></a>
-          <a class="icon icon--menu" href="#"></a>
+          <a class="icon icon--menu" href="#menu"></a>
         </div>
       </div>
       <h1 class="header__title">Bring joy back to the everyday</h1>
     </header>
 
     <!-- region aside -->
-    <aside></aside>
+    <aside class="menu page__menu" id="menu">
+      <div class="menu__top">
+        <a class="header__logo__link" href="#">
+          <img class="header__logo"
+            src="/src/images/Logo.svg"
+            alt="Nothing logo"
+          />
+        </a>
+        <a class="icon icon--close" href="#"></a>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a
+            class="nav__link"
+            href="#recommended">Products</a>
+          </li>
+
+          <li class="nav__item">
+            <a
+            class="nav__link"
+            href="#categories">Store</a>
+          </li>
+
+          <li class="nav__item">
+            <a
+            class="nav__link"
+            href="#">Login</a>
+          </li>
+
+          <li class="nav__item">
+            <a
+            class="nav__link"
+            href="#">Cart(0)</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="menu__nomer" href="tel:+1 234 5555-55-55">+1 234 5555-55-55</a>
+      <a class="menu__call" href="tel:+1 234 5555-55-55">call to order</a>
+    </aside>
 
     <!-- region main -->
     <main>
       <!-- region section 1 -->
-      <section class="recommended">
+      <section class="recommended" id="recommended">
         <h2>Recommended</h2>
       </section>
 
       <!-- region section 2 -->
-      <section class="categories">
+      <section class="categories" id="categories">
         <h2>Browse Nothing products by category</h2>
       </section>
 

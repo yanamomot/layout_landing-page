@@ -22,8 +22,6 @@
 
 .header__logo{
   width: 125px;
-  height: 16px;
-  line-height: 16px;
 }
 
 .header__top{
@@ -38,9 +36,7 @@
 }
 
 .header__logo__link{
-  width: 125px;
-  height: 16px;
-  line-height: 16px;
+  display: flex;
 }
 
 .icon{
@@ -50,11 +46,12 @@ width: 24px;
 }
 
 .icon--phone{
-background-image: url('..//images/Icon-Phone-call.png');
+background-image: url('../images/Icon-Phone-call.svg');
 }
 
 .icon--menu{
-  background-image: url('../images/Icon-Burger-menu.png');
+  background-image: url('../images/Icon-Burger-menu.svg');
+  &:hover{
+    background-image: url('../images/Icon-Burger-menu-hover.svg');
   }
-
-
+  }
