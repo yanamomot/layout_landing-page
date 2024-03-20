@@ -1,0 +1,30 @@
+.categories{
+  padding: 0 20px 96px;
+  display: grid;
+  row-gap: 40px;
+justify-content: center;
+align-items: center;
+}
+
+.categories__title{
+  margin-bottom: 8px;
+}
+
+.contain__img{
+  display: flex;
+justify-content: space-between;
+margin-bottom: 16px;
+}
+
+.categories__link__view{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(41, 41, 41, 1);
+  color: rgba(255, 255, 255, 1);
+  width: 280px;
+  height: 56px;
+  margin: 40px 0 0;
+  border-radius: 8px;
+}

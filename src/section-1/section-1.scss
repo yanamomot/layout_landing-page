@@ -1,0 +1,30 @@
+.recommended{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+padding: 64px 20px 96px;
+justify-content: center;
+
+&:first-child{
+  gap: 48px;
+}
+}
+
+.recommended__products__img{
+  width: 280px;
+}
+
+.recommended__products__links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.recommended__products__name{
+margin-bottom: 8px;
+}
+
+.recommended__products__name__paragraf{
+  margin-bottom: 12px;
+}
